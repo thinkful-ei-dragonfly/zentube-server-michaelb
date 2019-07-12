@@ -34,7 +34,7 @@ INSERT INTO zentube_comments (
   user_id
 ) VALUES
   (
-    'This post is amazing',
+    'This video is amazing',
     1,
     1.0,
     2

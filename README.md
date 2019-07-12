@@ -12,6 +12,11 @@ Currently works as a youTube clone.  Features to be added:
 
 Postgres, Express, React, Node
 
+
+![screenshot](https://github.com/thinkful-ei-dragonfly/zentube-client-michaelb/screenshots.landing.png)
+
+
+
 ## Scripts
 
 Start the application `npm start`
