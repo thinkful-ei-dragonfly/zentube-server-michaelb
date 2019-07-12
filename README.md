@@ -13,7 +13,7 @@ Currently works as a youTube clone.  Features to be added:
 Postgres, Express, React, Node
 
 
-![screenshot]("/screenshots/landing.png"?raw=true)
+![screenshot](/screenshots/landing.png?raw=true)
 
 
 
