@@ -13,7 +13,7 @@ Currently works as a youTube clone.  Features to be added:
 Postgres, Express, React, Node
 
 
-![screenshot](https://github.com/thinkful-ei-dragonfly/zentube-server-michaelb/blob/master/screenshots/landing.png)
+![screenshot]("/screenshots/landing.png"?raw=true)
 
 
 
