@@ -1,5 +1,9 @@
 # zentube API Server!
 
+## Live Site
+
+https://zentube.herokuapp.com/
+
 ## Description
 
 Currently works as a youTube clone.  Features to be added:
@@ -31,28 +35,14 @@ Leave a comment:
 
 
 
-## Scripts
+## Install
 
-Start the application `npm start`
+npm i
 
-Start nodemon for the application `npm run dev`
+createdb -U dunder-mifflin zentube
 
-Run the tests in watch mode `npm test`
+npm run migrate -- 1
 
-## Configuring Postgres
+psql -U dunder-mifflin -d zentube -f ./seeds/seed.zentube_tables.sql
 
-For tests involving time to run properly, configure your Postgres database to run in the UTC timezone.
-
-1. Locate the `postgresql.conf` file for your Postgres installation.
-   1. E.g. for an OS X, Homebrew install: `/usr/local/var/postgres/postgresql.conf`
-   2. E.g. on Windows, _maybe_: `C:\Program Files\PostgreSQL\11.2\data\postgresql.conf`
-2. Find the `timezone` line and set it to `UTC`:
-
-```conf
-# - Locale and Formatting -
-
-datecategory = 'iso, mdy'
-#intervalcategory = 'postgres'
-timezone = 'UTC'
-#timezone_abbreviations = 'Default'     # Select the set of available time zone
-```
+npm start
